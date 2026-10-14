@@ -1,0 +1,14 @@
+{
+  "name": "attest",
+  "version": "1.0.0",
+  "description": "Attest by DataHubz is document signing and verifiable records. The Attest connector lets your assistant list the agreements you sent or must sign, remind signers, prepare new agreements, verify signed documents and records anchored on the Horizen blockchain, and create Share proofs, zero-knowledge proofs verified on zkVerify. It never reads a document and never signs: documents stay end-to-end encrypted, and each signer signs in Attest with their own passkey.",
+  "mcpServers": {
+    "attest": {
+      "httpUrl": "https://attest.datahubz.com/mcp",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

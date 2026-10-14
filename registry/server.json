@@ -1,0 +1,49 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.datahubz/attest",
+  "title": "Attest by DataHubz",
+  "description": "Track agreements sent for signature, remind signers, verify signed documents and share proofs.",
+  "version": "1.0.0",
+  "websiteUrl": "https://attest.datahubz.com/docs/connector",
+  "repository": {
+    "url": "https://github.com/DataHubz/attest-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://attest.datahubz.com/brand/attest-app-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://attest.datahubz.com/brand/attest-app-192.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "192x192"
+      ]
+    },
+    {
+      "src": "https://attest.datahubz.com/apple-icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "180x180"
+      ]
+    },
+    {
+      "src": "https://attest.datahubz.com/icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ],
+      "theme": "light"
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://attest.datahubz.com/mcp"
+    }
+  ]
+}
